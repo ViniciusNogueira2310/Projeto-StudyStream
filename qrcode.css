@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.payment-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 700px;
+}
+
+.payment-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.payment-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.pix-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.instructions {
+    margin-top: 20px;
+}
+
+.instructions h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.instructions ol {
+    padding-left: 20px;
+    color: #555;
+}
+
+.status {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (min-width: 600px) {
+    .payment-details {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .qr-code, .pix-info {
+        width: 45%;
+    }
+
+    .qr-code img {
+        width: 100%;
+        height: auto;
+    }
+}

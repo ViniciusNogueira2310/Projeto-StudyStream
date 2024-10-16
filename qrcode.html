@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento com PIX</title>
+    <link rel="stylesheet" href="qrcode.css">
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Pagamento com PIX</h1>
+        <div class="payment-details">
+            <div class="qr-code">
+                <img src="imagens/qrcode.png" alt="QR Code PIX">
+            </div>
+            <div class="pix-info">
+                <p><strong>Chave PIX:</strong> seuemail@exemplo.com</p>
+                <p><strong>Valor:</strong> R$ XXX,XX</p>
+                <p><strong>Descrição:</strong> Pagamento de Serviço X</p>
+            </div>
+        </div>
+        <div class="instructions">
+            <h2>Como Pagar</h2>
+            <ol>
+                <li>Abra o aplicativo do seu banco.</li>
+                <li>Escolha a opção de pagamento via PIX.</li>
+                <li>Escaneie o QR Code acima ou insira a chave PIX manualmente.</li>
+                <li>Confirme o pagamento.</li>
+            </ol>
+        </div>
+        <div class="status">
+            <li><a href="concluido.html" class="PIX">Aguardando confirmação do pagamento...</a></li>
+        </div>
+    </div>
+</body>
+</html>
