@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyStream - Página de Cursos</title>
+    <link rel="stylesheet" href="stylescursos.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <!-- Substitua pelo caminho da sua logo -->
+            <img src="imagens/image.png" alt="StudyStream Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar cursos">
+            <button>Buscar</button>
+            
+        </div>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <div class="main-course">
+            <img src="imagens/curso1.png" alt="Imagem do Curso">
+            <div class="course-info">
+                <h1>Curso de Desenvolvimento Web Full Stack</h1>
+                <p>Descrição: Entre no mundo do desenvolvimento web com este curso completo de Full Stack. Aprenda desde os fundamentos do HTML, CSS e JavaScript até as tecnologias avançadas de back-end, como Node.js e MongoDB.</p>
+                <p class="price">R$ 600,00</p>
+                <p>Ao final do curso, você será capaz de criar aplicativos web dinâmicos e responsivos.</p>
+                <button class="buy-btn" onclick="location.href='pagamento.html'">Comprar Agora</button>
+            </div>
+        </div>
+
+        <!-- Cursos Populares -->
+        <section class="popular-courses">
+            <h2>Cursos Populares</h2>
+            <div class="course-list">
+                <div class="course-card" onclick="location.href='pagamento.html'">
+                    <img src="imagens/curso2.png" alt="Curso Agile">
+                    <h3>Curso de Gestão de Projetos com Agile</h3>
+                    <p>Aprenda os princípios e práticas do gerenciamento de projetos ágeis.</p>
+                    <p class="price">R$ 350,00</p>
+                </div>
+                <div class="course-card" onclick="location.href='pagamento.html'">
+                    <img src="imagens/curso3.png" alt="Curso Marketing">
+                    <h3>Curso de Marketing Digital para Empreendedores</h3>
+                    <p>Domine as estratégias para impulsionar o crescimento do seu negócio online.</p>
+                    <p class="price">R$ 250,00</p>
+                </div>
+                <div class="course-card" onclick="location.href='pagamento.html'">
+                    <img src="imagens/curso4.png" alt="Curso de Inglês">
+                    <h3>Curso de Inglês</h3>
+                    <p>Para pessoas que desejam aprimorar suas habilidades de comunicação em inglês.</p>
+                    <p class="price">R$ 400,00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-info">
+            <h3>StudyStream</h3>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cursos.html">Cursos Grandes</a></li>
+                <li><a href="cursos.html">Cursos Populares</a></li>
+                <li><a href="cursos.html">Cursos Pequenos</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

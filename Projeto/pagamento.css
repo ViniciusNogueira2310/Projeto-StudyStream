@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+ 
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    height: 70%;
+}
+ 
+.payment-methods, .order-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+.payment-form {
+    padding: 20px;
+}
+ 
+.payment-form .logos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+ 
+.payment-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+ 
+.payment-form form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ 
+.card-details {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.card-details div {
+    flex: 1;
+    margin-right: 10px;
+}
+ 
+.card-details div:last-child {
+    margin-right: 0;
+}
+ 
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 80px;
+}
+ 
+button:hover {
+    background-color: #45a049;
+}
+ 
+.order-info p {
+    margin-top: 10px;
+}
+
+.pix {
+    margin-top: 7px;
+}
+
+.sidepagamento {
+    padding: 63px 23px;
+    color: #000;
+}
+
+.cartao {
+    margin-bottom: 50px;
+}
+
+.sidepix {
+    margin-bottom: 50px;
+}
